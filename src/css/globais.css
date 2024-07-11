@@ -82,10 +82,12 @@ html {
     padding: 10px 20px;
     border-radius: 20px;
     transition: all .3s ease;
-    background-color: var(--cor-primaria);
+    color: var(--cor-branca);
+    font-weight: 400;
   }
   
   .botao:hover {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-branca);
+    color: var(--cor-fundo-escuro);
+    text-shadow: 0 0 12px #75d6da;
+    box-shadow: 0 0 12px 1px #75d6da, 0 0 12px 1px #75d6da inset;
   }
